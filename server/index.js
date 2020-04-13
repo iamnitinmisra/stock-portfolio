@@ -1,8 +1,6 @@
 const massive = require('massive');
 const express = require('express');
-
 require('dotenv').config()
-
 const { getSymbol } = require('./controllers/stockController')
 
 const app = express()
